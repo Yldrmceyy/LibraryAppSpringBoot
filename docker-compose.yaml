@@ -7,7 +7,7 @@ services:
     depends_on:
       - postgres
     environment:
-      DBURL: postgres:5432
+      DBURL: postgres
       DBNAME: library-app
       DBUSERNAME: postgres
       DBPASSWORD: postgres
